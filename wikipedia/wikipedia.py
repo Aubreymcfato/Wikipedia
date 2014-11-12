@@ -16,8 +16,11 @@ API_URL = 'http://en.wikisource.org/w/api.php'
 RATE_LIMIT = False
 RATE_LIMIT_MIN_WAIT = None
 RATE_LIMIT_LAST_CALL = None
-USER_AGENT = 'wikipedia (https://github.com/goldsmith/Wikipedia/)'
-
+USER_AGENT = 'wikisource (https://github.com/aubreymcfato/Wikipedia/)'
+#cosa succede se invece di 
+# 'wikipedia (https://github.com/goldsmith/Wikipedia/)'
+# scrivo
+# 'wikisource (https://github.com/aubreymcfato/Wikipedia/)'
 
 def set_lang(prefix):
   '''
